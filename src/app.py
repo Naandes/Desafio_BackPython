@@ -33,12 +33,6 @@ def add_news():
 
 
 
-@app.route('/news')
-def news():
-    noticias = mongo.db.new.find()
-    resp = dumps(noticias)
-    return resp
-
 @app.route('/busca', methods=['POST'])
 def ler():
     _json = request.json
