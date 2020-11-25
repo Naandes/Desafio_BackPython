@@ -4,9 +4,9 @@
 
 ### **Overview**
 
-Api para agendamento serve para agendar horários, sendo possível cadastrar um agendamento por: dia especifico, diária ou semanal, deletar o agendamento criado, consultar todos os agendamentos e também consultar por intervalo de dia
+Api para cadastro de notícias, colocando o título, o campo da notícia e o autor. É possível também alterar os dados, fazer busca deletar a notícia caso queira.
 
-### **Tecnologies**
+### **Technologies**
 
 - Flask
 - MongoDb
@@ -22,10 +22,6 @@ Api para agendamento serve para agendar horários, sendo possível cadastrar um 
 - Acessar pasta src através do terminal: `cd .\MongoDB-Teste\src`
 - Iniciar a aplicação: `python app.py`
 
-
-### **Database**
-
-Os arquivos de dados são src/database.json e src/testDatabase.json (usado somente para testes)
 
 ### **Endpoints**
 
@@ -87,7 +83,7 @@ Somente acessar com o ID da notícia e com a url acima deleta a notícia.
 
 **Dados de Retorno**
 
-"Notícia deleta com sucesso"
+"Notícia deletada com sucesso"
 
 ### **Busca da noticia**
 
