@@ -14,7 +14,7 @@ Api para cadastro de notícias, colocando o título, o campo da notícia e o aut
 
 ### **Quick start**
 
-- Clonar Repositorio: `git clone git@github.com:joaogn/desafio-cubos.git`
+- Clonar Repositorio: `git clone https://github.com/Naandes/Desafio_BackPython.git`
 - Instalar Python : `https://python.org.br/instalacao-windows/` 
 - Instalar Virtualenv: `pip install virtualenv --user`
 - Acessar pasta Scripts através do terminal: `cd .\MongoDB-Teste\meuvenv\Scripts`
@@ -34,19 +34,19 @@ http://localhost:5000/add **POST**
 Os dados válidos são através da seguinte forma:
 ```json
 
-  "titulo" : "titulo que deseja para sua noticia",
-  "noticia" : "Campo de texto que deseja para sua noticia",
-  "autor" : "Autor da sua noticia"
+  "titulo" : "titulo que deseja para sua notícia",
+  "noticia" : "Campo de texto que deseja para sua notícia",
+  "autor" : "Autor da sua notícia"
 
 ```
 
 **Dados de Retorno**
 
-"Noticia adicionada com sucesso"
+"Notícia adicionada com sucesso"
 
 
 
-### **Busca da noticia**
+### **Busca da notícia**
 
 http://localhost:5000/busca **GET**
 
@@ -73,7 +73,7 @@ http://localhost:5000/busca **GET**
 
 Caso não encontre nada na busca, o vetor retona o vetor vazio
 
-### **Busca da noticia**
+### **Busca da notícia**
 
 http://localhost:5000/delete/<id> **DELETE**
 
@@ -85,7 +85,7 @@ Somente acessar com o ID da notícia e com a url acima deleta a notícia.
 
 "Notícia deletada com sucesso"
 
-### **Busca da noticia**
+### **Busca da notícia**
 
 http://localhost:5000/update/<id> **PUT**  
 
@@ -95,11 +95,11 @@ Os dados válidos são através da seguinte forma:
 ```json
 
   "titulo" : "Modificação do titulo, caso exista",
-  "noticia" : "Modificação do campo do título, caso exista",
+  "noticia" : "Modificação do campo da notícia, caso exista",
   "autor" : "Modificação do autor, caso exista"
 
 ```
 
 **Dados de Retorno**
 
-"Noticia alterada com sucesso"
+"Notícia alterada com sucesso"
