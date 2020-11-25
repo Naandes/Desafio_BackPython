@@ -19,7 +19,7 @@ Api para cadastro de notícias, colocando o título, o campo da notícia e o aut
 - Instalar Virtualenv: `pip install virtualenv --user`
 - Acessar pasta Scripts através do terminal: `cd .\MongoDB-Teste\meuvenv\Scripts`
 - Iniciar o Virtualenv no terminal: `activate`
-- Acessar pasta src através do terminal: `cd .\MongoDB-Teste\src`
+- Acessar pasta src através do terminal: `cd .\Desafio_BackPython\src`
 - Iniciar a aplicação: `python app.py`
 
 
